@@ -1,7 +1,7 @@
-import { gitmojis } from 'gitmojis';
-import { getTypes } from '@yi-xu-0100/conventional-commit-types-i18n';
-import yaml from 'yaml';
 import { writeFile } from 'node:fs/promises';
+import { getTypes } from '@yi-xu-0100/conventional-commit-types-i18n';
+import { gitmojis } from 'gitmojis';
+import yaml from 'yaml';
 
 const { types } = getTypes('en');
 
@@ -32,10 +32,10 @@ const gitmojiOutput: GitmojiOutput[] = gitmojis.map(
 );
 
 writeFile(
-  './conventional-gitmoji-commit/conventional-commit.yaml',
+  './skills/conventional-gitmoji-commit/conventional-commit.yaml',
   yaml.stringify(ccOutput),
 );
 writeFile(
-  './conventional-gitmoji-commit/gitmoji.yaml',
+  './skills/conventional-gitmoji-commit/gitmoji.yaml',
   yaml.stringify(gitmojiOutput),
 );

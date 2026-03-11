@@ -31,8 +31,14 @@ For example:
 feat: ✨ Add new user authentication flow
 ```
 
-Conventional-commit's types are listed in ./conventional-commit.yaml, and gitmojis are listed in ./gitmoji.yaml. Follow these files to ensure your commit messages adhere to the conventional-gitmoji-commit style.
+Always write commit messages in English, whatever the historical commit messages are.
 
 ## When to use
 
 When you're writing a git commit message.
+
+## Instructions
+
+1. Choose a type from the conventional-commit types and an appropriate gitmoji.
+   1. If not sure which type you can use, check the descriptions in ./conventional-commit.yaml and ./gitmoji.yaml.
+2. Write the commit message in English.
