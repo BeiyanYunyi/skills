@@ -1,6 +1,6 @@
 ---
 name: conventional-gitmoji-commit
-description: A commit style that combines conventional commits with gitmoji for better readability and expressiveness in commit messages.
+description: A commit style that combines conventional commits with gitmoji. Use when you're writing a git commit message, or you're asked to use this skill.
 ---
 
 # conventional-gitmoji-commit
@@ -35,10 +35,11 @@ Always write commit messages in English, whatever the historical commit messages
 
 ## When to use
 
-When you're writing a git commit message.
+When you're writing a git commit message, or you're asked to use this skill.
 
 ## Instructions
 
 1. Choose a type from the conventional-commit types and an appropriate gitmoji.
-   1. If not sure which type you can use, check the descriptions in ./conventional-commit.yaml and ./gitmoji.yaml.
+   1. If not sure which type to use, check the descriptions in ./conventional-commit.yaml and ./gitmoji.yaml.
 2. Write the commit message in English.
+3. If you're asked to use this skill, commit your changes with this style.
