@@ -39,7 +39,7 @@ When you're writing a git commit message, or you're asked to use this skill.
 
 ## Instructions
 
-1. Choose a type from the conventional-commit types and an appropriate gitmoji.
-   1. If not sure which type to use, check the descriptions in ./conventional-commit.yaml and ./gitmoji.yaml.
-2. Write the commit message in English.
-3. If you're asked to use this skill, commit your changes with this style.
+1. Check the descriptions in ./conventional-commit.yaml and ./gitmoji.yaml for which type to use.
+2. Choose a type from the conventional-commit types and an appropriate gitmoji.
+3. Write the commit message in English.
+4. If you're asked to use this skill, commit your changes with this style.
