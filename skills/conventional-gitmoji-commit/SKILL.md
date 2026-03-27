@@ -31,15 +31,18 @@ For example:
 feat: ✨ Add new user authentication flow
 ```
 
-Always write commit messages in English, whatever the historical commit messages are.
-
 ## When to use
 
 When you're writing a git commit message, or you're asked to use this skill.
 
 ## Instructions
 
-1. Check the descriptions in ./conventional-commit.yaml and ./gitmoji.yaml for which type to use.
-2. Choose a type from the conventional-commit types and an appropriate gitmoji.
-3. Write the commit message in English.
-4. If you're asked to use this skill, commit your changes with this style.
+(RFC 2119 keywords)
+
+1. MUST check the descriptions in ./gitmoji.yaml.
+2. RECOMMENDED to check the descriptions in ./conventional-commit.yaml.
+3. MUST choose a type from the conventional-commit types and an appropriate gitmoji.
+4. MAY view the last 5 commit message for reference.
+5. MUST write the commit message in English, whatever the historical commit messages are.
+6. If you're asked to use this skill, you MUST commit your changes with this style.
+7. Changes of different types SHOULD be separated in different commits.
