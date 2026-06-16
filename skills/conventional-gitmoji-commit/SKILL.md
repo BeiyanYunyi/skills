@@ -28,7 +28,7 @@ Conventional-gitmoji-commit is "compatible" with the conventional commit style, 
 For example:
 
 ```plaintext
-feat: ✨ Add new user authentication flow
+feat: ✨ add new user authentication flow
 ```
 
 ## When to use
@@ -44,5 +44,6 @@ When you're writing a git commit message, or you're asked to use this skill.
 3. MUST choose a type from the conventional-commit types and an appropriate gitmoji.
 4. MAY view the last 5 commit message for reference.
 5. MUST write the commit message in English, whatever the historical commit messages are.
-6. If you're asked to use this skill, you MUST commit your changes with this style.
-7. Changes of different types SHOULD be separated in different commits.
+6. the first character of the description MUST be lowercase, and the description MUST NOT end with a period.
+7. If you're asked to use this skill, you MUST commit your changes with this style.
+8. Changes of different types SHOULD be separated in different commits.
